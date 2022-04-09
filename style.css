@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+#hero {
+  margin: 0 auto 72px;
+  width: 592px;
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 50px;
+  font-weight: normal;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+span, a {
+  color: #FF9900;
+  text-decoration: none;
+}
+
+p, #footer {
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#footer a + a { /*Ele vai pegar a tag "a" anterior a indicada em segundo que no caso é "a" e aplicar o comando que escrevi*/
+  margin-left: 28px;
+}
+
+.line {
+  width: 568px;
+  height: 0;
+  margin: 0 auto 8px;
+  border: 1px solid #ECEFF2;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
